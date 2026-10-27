@@ -1,3 +1,6 @@
+
+> **IMPORTANT 2026-10-27 UPDATE:** The user has now supplied an existing compiled game ZIP. This prior greenfield Phase-1 task is superseded by [CODEX_IMPORT_EXISTING_GAME.md](CODEX_IMPORT_EXISTING_GAME.md). Import and test the original game build first; preserve its working functionality and save behavior. Do not run the greenfield setup as an overwrite.
+
 # CODEX FIRST TASK — VEYLORIA ONLINE
 
 ## Use this prompt inside Codex
