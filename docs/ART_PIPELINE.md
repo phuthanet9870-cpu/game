@@ -37,7 +37,7 @@ Turn the shared Veyloria concept board into **original modular game assets**, no
 | sit | 4 | 192×256 |
 | emote | 4 | 192×256 |
 
-**233?** No. Correct total frames per character = (5+8+8+6+6+3+8+6+4+4) × 4 = **232 frames**. 10 sheets per design. Changes to cell size must be reflected in every consumer.
+Total frames per character = (5+8+8+6+6+3+8+6+4+4) × 4 = **232 frames** across **10 sheets** per design. Changes to cell size must be reflected in every consumer.
 
 Sample `assets/characters/novice/walk.json`:
 ```json
