@@ -31,3 +31,6 @@ Read `README.md`, `docs/GAME_BIBLE.md`, `docs/ART_PIPELINE.md`, `docs/CODEX_STAR
 
 ## Definition of done
 A feature is done only when it loads in the game, performs the intended gameplay interaction, survives the relevant save/load or reconnect scenario, and has reasonable tests or manual QA instructions. If not, mark it TODO.
+
+## Highest priority update: existing user game provided
+A user-supplied Veyloria web build ZIP has been inspected outside this repository. **Do not replace the user's build with a new blank Phaser scaffold**. Read `docs/EXISTING_BUILD_AUDIT.md` and `docs/CODEX_IMPORT_EXISTING_GAME.md` first. The archive binaries are **not yet present in the repository**; request/accept the import ZIP, preserve `legacy-build/` unchanged, then audit and incrementally extend the original. The compiled JS alone is not the editable source project.
