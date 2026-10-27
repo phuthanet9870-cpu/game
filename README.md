@@ -34,3 +34,6 @@ Build a browser-playable, top-down / 3⁄4 perspective fantasy RPG that can evol
 - [Asset inventory](assets/manifest.json)
 
 **Current state:** Specifications only. No playable client, server, actual sprite sheets or map images are present yet.
+
+## Existing Veyloria game build supplied by user (2026-10-27)
+The user has supplied a compiled playable-looking web build ZIP in ChatGPT. **The binary archive is not yet in this GitHub repo.** Before scaffolding a replacement, read [existing build audit](docs/EXISTING_BUILD_AUDIT.md) and [Codex import procedure](docs/CODEX_IMPORT_EXISTING_GAME.md), and import the ZIP into `legacy-build/`. Preserve its four original files and inspect the current game first. The original editable `src/` and `package.json` were not provided.
