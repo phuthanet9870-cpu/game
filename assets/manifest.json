@@ -1,0 +1,306 @@
+{
+  "project": "Veyloria Online",
+  "schemaVersion": 1,
+  "sourceOfTruth": "docs/ART_PIPELINE.md",
+  "contentStatus": "specification_only",
+  "defaultTileSize": [
+    32,
+    32
+  ],
+  "defaultPlayerFrameSize": [
+    48,
+    64
+  ],
+  "directionRows": [
+    "down",
+    "left",
+    "right",
+    "up"
+  ],
+  "animationFramesPerDirection": {
+    "idle": 5,
+    "walk": 8,
+    "run": 8,
+    "attack": 6,
+    "cast": 6,
+    "hit": 3,
+    "death": 8,
+    "victory": 6,
+    "sit": 4,
+    "emote": 4
+  },
+  "referenceArtNote": "The conversation concept board is not stored in this repository. Upload it as original art/reference/veyloria-concept.png before asset matching.",
+  "batches": [
+    {
+      "id": "001",
+      "name": "novice-starter-sprites",
+      "status": "planned"
+    },
+    {
+      "id": "002",
+      "name": "knight-guardian-berserker",
+      "status": "planned"
+    },
+    {
+      "id": "003",
+      "name": "ranger-sniper-beastlord",
+      "status": "planned"
+    },
+    {
+      "id": "004",
+      "name": "mage-archmage-sage",
+      "status": "planned"
+    },
+    {
+      "id": "005",
+      "name": "priest-high-priest-monk",
+      "status": "planned"
+    },
+    {
+      "id": "006",
+      "name": "assassin-shadowblade-nightstalker",
+      "status": "planned"
+    },
+    {
+      "id": "007",
+      "name": "merchant-artificer-alchemist",
+      "status": "planned"
+    },
+    {
+      "id": "008",
+      "name": "npcs-25",
+      "status": "planned"
+    },
+    {
+      "id": "009",
+      "name": "monsters-01-20",
+      "status": "planned"
+    },
+    {
+      "id": "010",
+      "name": "monsters-21-40",
+      "status": "planned"
+    },
+    {
+      "id": "011",
+      "name": "monsters-41-60",
+      "status": "planned"
+    },
+    {
+      "id": "012",
+      "name": "mini-bosses-12",
+      "status": "planned"
+    },
+    {
+      "id": "013",
+      "name": "major-bosses-6",
+      "status": "planned"
+    },
+    {
+      "id": "014",
+      "name": "terrain-tilesets",
+      "status": "planned"
+    },
+    {
+      "id": "015",
+      "name": "buildings-and-props",
+      "status": "planned"
+    },
+    {
+      "id": "016",
+      "name": "maps-30",
+      "status": "planned"
+    },
+    {
+      "id": "017",
+      "name": "weapons-and-equipment",
+      "status": "planned"
+    },
+    {
+      "id": "018",
+      "name": "skill-icons-and-cards",
+      "status": "planned"
+    },
+    {
+      "id": "019",
+      "name": "elemental-vfx",
+      "status": "planned"
+    },
+    {
+      "id": "020",
+      "name": "physical-and-boss-vfx",
+      "status": "planned"
+    },
+    {
+      "id": "021",
+      "name": "pets-and-mounts",
+      "status": "planned"
+    },
+    {
+      "id": "022",
+      "name": "ui-hud",
+      "status": "planned"
+    },
+    {
+      "id": "023",
+      "name": "integration-and-qa",
+      "status": "planned"
+    }
+  ],
+  "assets": [
+    {
+      "id": "novice_idle",
+      "kind": "character_animation",
+      "path": "assets/characters/novice/idle.png",
+      "metadata": "assets/characters/novice/idle.json",
+      "framesPerDirection": 5,
+      "rows": 4,
+      "status": "planned"
+    },
+    {
+      "id": "novice_walk",
+      "kind": "character_animation",
+      "path": "assets/characters/novice/walk.png",
+      "metadata": "assets/characters/novice/walk.json",
+      "framesPerDirection": 8,
+      "rows": 4,
+      "status": "planned"
+    },
+    {
+      "id": "novice_run",
+      "kind": "character_animation",
+      "path": "assets/characters/novice/run.png",
+      "metadata": "assets/characters/novice/run.json",
+      "framesPerDirection": 8,
+      "rows": 4,
+      "status": "planned"
+    },
+    {
+      "id": "novice_attack",
+      "kind": "character_animation",
+      "path": "assets/characters/novice/attack.png",
+      "metadata": "assets/characters/novice/attack.json",
+      "framesPerDirection": 6,
+      "rows": 4,
+      "status": "planned"
+    },
+    {
+      "id": "novice_cast",
+      "kind": "character_animation",
+      "path": "assets/characters/novice/cast.png",
+      "metadata": "assets/characters/novice/cast.json",
+      "framesPerDirection": 6,
+      "rows": 4,
+      "status": "planned"
+    },
+    {
+      "id": "novice_hit",
+      "kind": "character_animation",
+      "path": "assets/characters/novice/hit.png",
+      "metadata": "assets/characters/novice/hit.json",
+      "framesPerDirection": 3,
+      "rows": 4,
+      "status": "planned"
+    },
+    {
+      "id": "novice_death",
+      "kind": "character_animation",
+      "path": "assets/characters/novice/death.png",
+      "metadata": "assets/characters/novice/death.json",
+      "framesPerDirection": 8,
+      "rows": 4,
+      "status": "planned"
+    },
+    {
+      "id": "novice_victory",
+      "kind": "character_animation",
+      "path": "assets/characters/novice/victory.png",
+      "metadata": "assets/characters/novice/victory.json",
+      "framesPerDirection": 6,
+      "rows": 4,
+      "status": "planned"
+    },
+    {
+      "id": "novice_sit",
+      "kind": "character_animation",
+      "path": "assets/characters/novice/sit.png",
+      "metadata": "assets/characters/novice/sit.json",
+      "framesPerDirection": 4,
+      "rows": 4,
+      "status": "planned"
+    },
+    {
+      "id": "novice_emote",
+      "kind": "character_animation",
+      "path": "assets/characters/novice/emote.png",
+      "metadata": "assets/characters/novice/emote.json",
+      "framesPerDirection": 4,
+      "rows": 4,
+      "status": "planned"
+    },
+    {
+      "id": "willowbrook_ground",
+      "kind": "tileset",
+      "path": "assets/tilesets/willowbrook_ground.png",
+      "tileSize": [
+        32,
+        32
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "willowbrook_objects",
+      "kind": "environment_props",
+      "path": "assets/environment/willowbrook/props.png",
+      "status": "planned"
+    },
+    {
+      "id": "willowbrook_map",
+      "kind": "tilemap",
+      "path": "assets/maps/willowbrook/willowbrook_village.json",
+      "status": "planned"
+    },
+    {
+      "id": "leaf_slime",
+      "kind": "monster_sprite",
+      "path": "assets/monsters/leaf_slime/idle.png",
+      "status": "planned"
+    },
+    {
+      "id": "mushling",
+      "kind": "monster_sprite",
+      "path": "assets/monsters/mushling/idle.png",
+      "status": "planned"
+    },
+    {
+      "id": "horn_rabbit",
+      "kind": "monster_sprite",
+      "path": "assets/monsters/horn_rabbit/idle.png",
+      "status": "planned"
+    },
+    {
+      "id": "sword_slash",
+      "kind": "vfx",
+      "path": "assets/vfx/sword_slash.png",
+      "status": "planned"
+    },
+    {
+      "id": "basic_hit",
+      "kind": "vfx",
+      "path": "assets/vfx/basic_hit.png",
+      "status": "planned"
+    },
+    {
+      "id": "heal",
+      "kind": "vfx",
+      "path": "assets/vfx/heal.png",
+      "status": "planned"
+    },
+    {
+      "id": "level_up",
+      "kind": "vfx",
+      "path": "assets/vfx/level_up.png",
+      "status": "planned"
+    }
+  ]
+}
